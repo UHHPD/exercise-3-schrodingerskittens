@@ -82,7 +82,7 @@ int main() {
     cout<<"Mu_hat: "<<mu_hat<<endl;
 
     double lambda;
-    lambda = probe(daten, mu_hat)/saturated_probe(daten);
+    lambda = probe(daten, 3.11538)/saturated_probe(daten);
     cout<<"Likelihood ratio Lambda: "<<lambda<<endl;
 
     double lLambda = -2*log(lambda);
